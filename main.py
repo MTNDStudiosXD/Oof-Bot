@@ -104,4 +104,4 @@ async def email(ctx):
 
 keep_alive.keep_alive()
 token = os.environ.get("BOT_TOKEN_HERE")
-bot.run(token, bot= True, reconnect=True) 
+bot.run(proccess.env.token) 
